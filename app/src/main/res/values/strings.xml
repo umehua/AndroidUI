@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AndroidUI</string>
+    <string name="tab_1">tab1</string>
+    <string name="tab_2">tab2</string>
+    <string name="tab_3">tab3</string>
+
+    <array name="recycler_list">
+        <item>Grid Recycler</item>
+        <item>Drag Drop Recycler</item>
+        <item>Toolbar with Tabs</item>
+    </array>
+
+    <array name="recycler_drag_drop_list">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+        <item>"8"</item>
+    </array>
+</resources>
