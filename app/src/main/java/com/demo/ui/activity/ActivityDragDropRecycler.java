@@ -93,7 +93,7 @@ public class ActivityDragDropRecycler extends AppCompatActivity {
         @Override
         public void onSwiped(int adapterPosition) {
             mAdapter.getDataset().remove(adapterPosition);
-            mAdapter.notifyItemMoved(adapterPosition, adapterPosition);
+            mAdapter.notifyItemRemoved(adapterPosition);
             mTouchHelper.setDragEnable(false);
             mTouchHelper.setSwipeEnable(false);
         }

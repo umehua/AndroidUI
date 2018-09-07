@@ -34,13 +34,9 @@ public class ActivityGridRecycler extends AppCompatActivity {
     private void initViews() {
         mRecycler = (RecyclerView) findViewById(R.id.recycler_view);
 
-        mRecycler.addItemDecoration(new LinearLayoutDecoration(
-                LinearLayoutManager.VERTICAL,
-                new ColorDrawable(0x1a4e4e4e),
-                (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 1,
-                        getResources().getDisplayMetrics()),
-                (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 10,
-                        getResources().getDisplayMetrics())));
+         mRecycler.addItemDecoration(new GridLayoutDecoration(
+                new ColorDrawable(0x008f8f8f),
+                (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 10, getResources().getDisplayMetrics())));
 
         GridLayoutManager layoutManager = new GridLayoutManager(this, 3);
         mRecycler.setLayoutManager(layoutManager);
