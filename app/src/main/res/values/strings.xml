@@ -8,6 +8,7 @@
         <item>Grid Recycler</item>
         <item>Drag Drop Recycler</item>
         <item>Toolbar with Tabs</item>
+        <item>Expandable Recycler</item>
     </array>
 
     <array name="recycler_drag_drop_list">

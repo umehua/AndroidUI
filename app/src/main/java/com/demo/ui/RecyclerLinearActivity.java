@@ -11,6 +11,7 @@ import android.util.TypedValue;
 import android.view.View;
 import android.widget.Toast;
 
+import com.demo.ui.activity.ActivityExpandableRecycler;
 import com.demo.ui.activity.ActivityToolBarWithTab;
 import com.demo.ui.activity.ActivityDragDropRecycler;
 import com.demo.ui.activity.ActivityGridRecycler;
@@ -84,6 +85,9 @@ public class RecyclerLinearActivity extends AppCompatActivity {
                             startActivity(i);
                         } else if (index == 2) {
                             Intent i = new Intent(getApplicationContext(), ActivityToolBarWithTab.class);
+                            startActivity(i);
+                        } else if (index == 3) {
+                            Intent i = new Intent(getApplicationContext(), ActivityExpandableRecycler.class);
                             startActivity(i);
                         }
                         Toast.makeText(getApplicationContext(), "click : "+ index, Toast.LENGTH_SHORT).show();

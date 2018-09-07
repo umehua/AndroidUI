@@ -19,8 +19,10 @@
         
         <activity android:name=".activity.ActivityGridRecycler"></activity>
         <activity android:name=".activity.ActivityDragDropRecycler"></activity>
+        <activity android:name=".activity.ActivityExpandableRecycler"></activity>
         <activity android:name=".activity.ActivityToolBarWithTab"
-            android:theme="@style/AppThemeNoActionBar"></activity>
+            android:theme="@style/AppThemeNoActionBar">
+        </activity>
     </application>
 
 </manifest>
