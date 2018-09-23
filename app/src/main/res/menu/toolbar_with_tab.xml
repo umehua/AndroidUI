@@ -4,7 +4,7 @@
 
     <item android:id="@+id/action_1"
         android:title="action_1"
-        android:icon="@drawable/ic_launcher_background"
+        android:icon="@mipmap/ic_launcher"
         android:orderInCategory="2"
         app:showAsAction="ifRoom|collapseActionView"
         app:actionViewClass="com.saga.snote.ui.DbActionView" />
